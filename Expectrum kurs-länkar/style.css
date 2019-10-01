@@ -57,6 +57,15 @@
     border-color: #7CCCBF;
   }
 
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #003E4A;
+   text-align: center;
+}
+
   .btnContainer{
     height: 100vh;
     display: flex;
