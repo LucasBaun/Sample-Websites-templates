@@ -1,0 +1,163 @@
+  #start{
+    background-color: #FFE174;
+  }
+
+  #prs{
+    background-color: #7CCCBF;
+    height: 100vh;
+    display: none
+  }
+
+  #prf{
+    background-color: #003E4A;
+    height: 100vh;
+    display: none;
+  }
+
+  #tred{
+    background-color: #003E4A;
+    height: 100vh;
+    display: none;
+  }
+
+  #quirk{
+    background-color: #7CCCBF;
+    height: 100vh;
+    display: none
+  }
+
+  body{
+    margin: 0px;
+  }
+
+  .links{
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .startBtn, .backstart{
+    font-family: 'Roboto', sans-serif;
+    color: #003E4A;
+    font-size: 120%;
+    padding: 10px;
+    margin: 10px;
+    background-color: Transparent;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #003E4A;
+    cursor:pointer;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+
+  .startBtn:hover{
+    color: #7CCCBF;
+    border-color: #7CCCBF;
+  }
+
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #003E4A;
+   text-align: center;
+}
+
+.footer a{
+  text-decoration: none;
+  font-size: 110%;
+  color: #003E4A;
+  transition: 0.3s;
+}
+
+.footer a:hover{
+  color: black;
+  font-size: 115%;
+  transition: 0.3s;
+
+}
+
+  .btnContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Lucas{
+    Tuffhet: 100%;
+  }
+
+  .title{
+    width: 100vw;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10vh;
+    font-size: 125%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .StartTitle{
+    margin: 0px;
+    padding-bottom: 6vh;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 300%;
+  }
+
+  .LinkButton{
+    font-family: 'Roboto', sans-serif;
+    color: #003E4A;
+    font-size: 120%;
+    padding: 8px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 10px;
+    background-color: Transparent;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #003E4A;
+    cursor:pointer;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+
+  .LinkButton2{
+    font-family: 'Roboto', sans-serif;
+    color: #7CCCBF;
+    font-size: 120%;
+    padding: 8px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 10px;
+    background-color: Transparent;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #7CCCBF;
+    cursor:pointer;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+
+  .backBtn{
+    padding: 30px;
+  }
+
+  .dark{
+    color: #003E4A;
+    border-color: #003E4A;
+  }
+
+  .light{
+    color: #7CCCBF;
+    border-color: #7CCCBF;
+  }
+
+  .yellow{
+    color: #FFE174;
+    border-color: #FFE174;
+  }
