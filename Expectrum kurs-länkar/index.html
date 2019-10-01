@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Expectrum's Kurs-Länkar</title>
+  </head>
+  <body>
+
+    <!-- Start -->
+    <div id="start">
+      <div class="btnContainer">
+        <h1 class="StartTitle dark">Expectrum's Kurs-länkar</h1>
+        <button id="start" class="startBtn" onclick="quirk()">Quirkbot</button>
+        <button id="start" class="startBtn" onclick="tred()">3D Teknik</button>
+        <button id="start" class="startBtn" onclick="progs()">Programmering Start</button>
+        <button id="start" class="startBtn" onclick="progf()">Programmering fortsättning</button>
+      </div>
+    </div>
+    <!-- slut på start -->
+
+    <!-- Programmerging Start -->
+    <div id="prs">
+      <div class="backBtn">
+        <button id="start" class="backstart" onclick="progs()">&#8678; Tillbaka Till Start</button>
+      </div>
+      <div class="title dark">
+        <h1>Programmering Start</h1>
+      </div>
+      <div class="links">
+        <a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" target="_blank"><button class="LinkButton yellow">Scratch</button></a>
+        <a href="https://blockly-games.appspot.com/?lang=sv" target="_blank"><button class="LinkButton yellow">Blockly</button></a>
+      </div>
+    </div>
+    <!-- Slut på Programmering start -->
+
+    <!-- Programmering fortsättning -->
+    <div id="prf">
+      <div class="backBtn">
+        <button id="start" class="backstart" onclick="progf()">&#8678; Tillbaka Till Start</button>
+      </div>
+      <div class="title yellow">
+        <h1>Programmering Fortsättning</h1>
+      </div>
+      <div class="links">
+        <a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" target="_blank"><button class="LinkButton light">Scratch</button></a>
+        <a href="https://makecode.microbit.org/#editor" target="_blank"><button class="LinkButton light">Micro:bit</button></a>
+      </div>
+    </div>
+    <!-- Slut på Programmering fortsättning -->
+
+    <!-- Quirkbot -->
+    <div id="quirk">
+      <div class="backBtn">
+        <button id="start" class="backstart" onclick="quirk()">&#8678; Tillbaka Till Start</button>
+      </div>
+      <div class="title dark">
+        <h1>Quirkbot</h1>
+      </div>
+      <div class="links">
+        <a href="https://code.strawbees.com/" target="_blank"><button class="LinkButton yellow">Strawbees code</button></a>
+        <a href="https://music.strawbees.com/" target="_blank"><button class="LinkButton yellow">Xylofon Musik</button></a>
+      </div>
+    </div>
+    <!-- Slut på Quirkbot -->
+
+    <!-- 3D Teknik -->
+    <div id="tred">
+      <div class="backBtn">
+        <button id="start" class="backstart" onclick="tred()">&#8678; Tillbaka Till Start</button>
+      </div>
+      <div class="title light">
+        <h1>3D Teknik</h1>
+      </div>
+      <div class="links">
+        <a href="https://www.tinkercad.com" target="_blank"><button class="LinkButton yellow">Tinkercad</button></a>
+        <a href="https://www.sketchup.com/products/sketchup-for-web" target="_blank"><button class="LinkButton yellow">Sketchup</button></a>
+      </div>
+    </div>
+    <!-- Slut på 3D Teknik -->
+
+  </body>
+  <script>
+  function progf() {
+    var x = document.getElementById("prf")
+    var y = document.getElementById("start")
+      if (x.style.display === "none"){
+        x.style.display = "block";
+        y.style.display = "none";
+      } else {
+        x.style.display = "none";
+        y.style.display = "block"
+      }
+  }
+
+  function tred() {
+    var x = document.getElementById("tred")
+    var y = document.getElementById("start")
+      if (x.style.display === "none"){
+        x.style.display = "block";
+        y.style.display = "none";
+      } else {
+        x.style.display = "none";
+        y.style.display = "block"
+      }
+  }
+
+  function quirk() {
+    var x = document.getElementById("quirk")
+    var y = document.getElementById("start")
+      if (x.style.display === "none"){
+        x.style.display = "block";
+        y.style.display = "none";
+      } else {
+        x.style.display = "none";
+        y.style.display = "block"
+      }
+  }
+
+  function progs() {
+    var x = document.getElementById("prs");
+    var y = document.getElementById("start")
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display = "none";
+    } else {
+      x.style.display = "none";
+      y.style.display = "block"
+    }
+  }
+  </script>
+</html>
